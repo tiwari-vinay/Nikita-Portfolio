@@ -363,26 +363,6 @@ article .icon {
 #projects {
   position: relative;
 }
-.project-details-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-}
-
-.project-containers {
-  gap: 2rem;
-  margin-bottom: 2rem;
-  margin-top: 2rem;
-}
-.project-container {
-  padding: 1.5rem;
-  flex: 1;
-  background: white;
-  border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
-  text-align: center;
-}
 
 .color-container {
   border-color: rgb(163, 163, 163);
