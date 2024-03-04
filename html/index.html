@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/mediaquery.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav id="nav">
+    <div id="name">Anamika Tiwari</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- hamburger -->
+
+
+  <nav id="hamburger-nav">
+    <div class="logo">Anamika Tiwari</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="../Portfolio_img/Anamika Profile.jpeg" alt="Anamika profile">
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Anamika Tiwari</h1>
+      <p class="section__text__p2">Full Stack Web Developer</p>
+
+      <div class=" btn-container">
+        <!-- btn for resume download -->
+        <button class="btn btn-color-2" onClick="window.open('../Portfolio_img')">
+          Download CV</button>
+
+        <!-- btn to go to contact -->
+        <button class="btn btn-color-1" onClick="location.href= './#contact'">Contact Info</button>
+      </div>
+
+      <div id="socials-container">
+        <img src="../Portfolio_img/leetcode.png" alt="My leetcode Profile" class="icon"
+          onClick="location.href = 'https://leetcode.com/anamika_1820/'">
+
+        <img src="../Portfolio_img/gfg.png" alt="My gfg Profile" class="icon"
+          onClick="location.href ='https://auth.geeksforgeeks.org/user/anamika_1820/'">
+
+        <img src="../Portfolio_img/github.png" alt="My github Profile" class="icon"
+          onClick="location.href = 'https://github.com/sheCoder18'">
+      </div>
+    </div>
+  </section>
+
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="../Portfolio_img/Anamika Profile.jpeg" alt="Profile Picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class=" about-containers">
+          <div class="details-container">
+            <img src="../Portfolio_img/experience.png" alt="Experience icon" class="icon" />
+            <h3>Fresher</h3>
+            <p>Searching for internship and Job !</p>
+          </div>
+
+          <div class="details-container">
+            <img src="../Portfolio_img/education.png" alt="Education icon" class="icon" />
+
+            <h3>Education</h3>
+            <p>Bachelor of Technology</p>
+          </div>
+
+          <div class="text-conatiner">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Ipsam corrupti, ullam reprehenderit quaerat nulla fugit amet
+              doloribus architecto odit rerum obcaecati pariatur numquam
+              voluptatibus debitis facilis esse. A, officiis qui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="../Portfolio_img/arrow.png" alt="Arrow Icon" class="icon arrow" onClick="location.href='./#experience'">
+  </section>
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+
+          <h2 class="experience-sub-title">Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React JS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Bootstrap</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Node JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Express JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>LINUX</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Other</h2>
+          <div class="article-container">
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>C/C++</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Algorithms</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>OOPS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>DBMS/SQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Operating System</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Computer Networking</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Power Bi</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="../Portfolio_img/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Excel</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <img src="../Portfolio_img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="project-details-container">
+      <div class="project-containers">
+
+        <div class="project-container color-container">
+          <div class="article-container">
+            <img src="../Portfolio_img/qr.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">QR Code Generator</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sheCoder18/QR-code-generator'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://qr-code-generator-tau-seven.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="../Portfolio_img/password.png" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Random Password Generator</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sheCoder18/password-generator'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://random-password-generator-orpin.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container col-md-6">
+          <div class="article-container">
+            <img src="../Portfolio_img/joke.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Random Joke Generator</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sheCoder18/joke-generator'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://random-joke-generator-delta.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="../Portfolio_img/weather.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Weather API App</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sheCoder18/weather-api'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://weather-app-six-iota-87.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="../Portfolio_img/dice-game.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Dice Game</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sheCoder18/dice-game'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://dice-game-ecru-nine.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="../Portfolio_img/todolist.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Todo List</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/sheCoder18/todo-list'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="../Portfolio_img/login-signup.jpg" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">Login-SignUp Portal</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://login-signup-coral-seven.vercel.app/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+    </div>
+    </div>
+
+
+    <img src="../Portfolio_img/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+
+  </section>
+
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="../Portfolio_img/Gmail-Logo.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mnanatiwari@gmail.com">mnanatiwari@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="../Portfolio_img/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2024 Anamika Tiwari. All Rights Reserved.</p>
+  </footer>
+
+
+
+
+  <script src="../js/script.js"></script>
+
+
+
+
+
+</body>
+
+</html>
